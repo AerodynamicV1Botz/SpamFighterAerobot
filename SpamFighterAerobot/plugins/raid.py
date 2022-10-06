@@ -6,9 +6,9 @@ import random
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from resources.data import RAID, REPLYRAID, DEADLYSPAM, BRTHSPAM
-from DEADLYSPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDO_USERS, OWNER_ID
-from DEADLYSPAM import CMD_HNDLR as hl
+from resources.data import RAID, REPLYRAID, SpamFighterAerobot, BRTHSPAM
+from SpamFighterAerobot import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDO_USERS, OWNER_ID
+from SpamFighterAerobot import CMD_HNDLR as hl
 
 
 que = {}
@@ -58,7 +58,7 @@ async def spam(e):
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) in DEADLYSPAM:
+            if int(g) in SpamFighterAerobot:
                 text = f"I can't raid on @AerodynamicV1_Promotion Owner"
                 await e.reply(text)
             elif int(g) == OWNER_ID:
@@ -149,7 +149,7 @@ async def _(e):
             umser = await e.client.get_entity(a.sender_id)
             user_idd = umser.id
             user_id = int(user_idd)
-            if int(user_id) in DEADLYSPAM:
+            if int(user_id) in SpamFighterAerobot:
                 text = f" can't raid on @AerodynamicV1_Promotion Owner."
                 await e.reply(text)
             elif int(user_id) == OWNER_ID:
@@ -232,7 +232,7 @@ async def _(event):
              user = str(Deadly[2])
              a = await event.client.get_entity(user)
              e = a.id
-             if int(e) in DEADLYSPAM:
+             if int(e) in SpamFighterAerobot:
                     text = f"I can't raid on @AerodynamicV1_Promotion Owner"
                     await event.reply(text)
              elif int(e) == OWNER_ID:
@@ -256,7 +256,7 @@ async def _(event):
                a = await event.get_reply_message()
                b = await event.client.get_entity(a.sender_id)
                e = b.id
-               if int(e) in DEADLYSPAM:
+               if int(e) in SpamFighterAerobot:
                        text = f"I can't raid on @AerodynamicV1_Promotion Owner"
                        await event.reply(text)
                elif int(e) == OWNER_ID:
@@ -324,7 +324,7 @@ async def spam(e):
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) in DEADLYSPAM:
+            if int(g) in SpamFighterAerobot:
                 text = f"I can't raid on @AerodynamicV1_Promotion Owner"
                 await e.reply(text)
             elif int(g) == OWNER_ID:
