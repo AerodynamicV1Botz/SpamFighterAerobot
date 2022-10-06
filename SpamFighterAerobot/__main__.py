@@ -3,7 +3,7 @@ import sys
 from sys import argv
 import glob
 from pathlib import Path
-from DEADLYSPAM.utils import load_plugins
+from SpamFighterAerobot.utils import load_plugins
 import logging
 from telethon import events
 from . import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9
@@ -12,7 +12,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 
-path = "DEADLYSPAM/plugins/*.py"
+path = "SpamFighterAerobot/plugins/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as a:
@@ -20,8 +20,8 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-deadly = "🎉 Successfully Deployed Deadly SpamBot 🎉 @AerodynamicV1_Update Enjoy! Do visit @Aero_Spambot"
-print(deadly[0: ])
+Vrajesh = "🎉 Successfully Deployed SpamFighterAerobot 🎉 @AerodynamicV1_Update Enjoy! Do visit @SpamFighterAerobot"
+print(Vrajesh[0: ])
 
 if __name__ == "__main__":
     BOT0.run_until_disconnected()
