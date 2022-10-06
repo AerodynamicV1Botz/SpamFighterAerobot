@@ -6,10 +6,10 @@ import requests
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from DEADLYSPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDO_USERS, OWNER_ID
-from DEADLYSPAM import CMD_HNDLR as hl
-from resources.data import GROUP, DEADLYSPAM
-from DEADLYSPAM.sql.echo_sql import addecho, get_all_echos, is_echo, remove_echo
+from SpamFighterAerobot import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDO_USERS, OWNER_ID
+from SpamFighterAerobot import CMD_HNDLR as hl
+from resources.data import GROUP, SpamFighterAerobot
+from SpamFighterAerobot.sql.echo_sql import addecho, get_all_echos, is_echo, remove_echo
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%saddecho(?: |$)(.*)" % hl))
@@ -28,7 +28,7 @@ async def echo(event):
      if event.reply_to_msg_id is not None:
             reply_msg = await event.get_reply_message()
             user_id = reply_msg.sender_id
-            if int(user_id) in DEADLYSPAM:
+            if int(user_id) in SpamFighterAerobot:
                     text = f"I Can't Echo @AerodynamicV1_Promotion Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
