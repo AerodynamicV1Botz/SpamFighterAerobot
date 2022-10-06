@@ -3,13 +3,13 @@ import asyncio
 import sys
 import git
 import heroku3
-# Changed root to DEADLYSPAM
-from DEADLYSPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9
-from DEADLYSPAM import OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, deadlyversion
-from DEADLYSPAM import CMD_HNDLR as hl
+# Changed root to SpamFighterAerobot
+from SpamFighterAerobot import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9
+from SpamFighterAerobot import OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, vrajeshversion
+from SpamFighterAerobot import CMD_HNDLR as hl
 from telethon.tl.functions.users import GetFullUserRequest
 # alive Pic By Default It's Will Show Our
-from DEADLYSPAM import ALIVE_PIC
+from SpamFighterAerobot import ALIVE_PIC
 from telethon import events, version, Button
 from telethon.tl.custom import button
 from time import time
@@ -18,11 +18,11 @@ from datetime import datetime
 DEAD_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg"
   
 
-DEADLY = "✯ 𝘼𝙚𝙧𝙤 𝙎𝙥𝙖𝙢 𝗛𝗲𝗿𝗲 ✯\n\n"
+DEADLY = "✯ AeroXSpam Fighter Here ✯\n\n"
 DEADLY += f"═══════════════════\n"
-DEADLY += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
+DEADLY += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.7`\n"
 DEADLY += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-DEADLY += f"• **ᴅᴇᴀᴅʟʏʙᴏᴛ ᴠᴇʀsɪᴏɴ**  : `{deadlyversion}`\n"
+DEADLY += f"• **ᴅᴇᴀᴅʟʏʙᴏᴛ ᴠᴇʀsɪᴏɴ**  : `{vrajeshversion}`\n"
 DEADLY += f"═══════════════════\n\n"   
 
                                   
