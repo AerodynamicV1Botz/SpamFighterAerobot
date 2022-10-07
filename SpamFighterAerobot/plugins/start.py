@@ -5,7 +5,7 @@ from telethon import events, Button
 from telethon.tl.custom import button
 from SpamFighterAerobot import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, ALIVE_PIC, OWNER_ID, OWNER_NAME
 
-AEROBOTZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg"
+AEROBOTZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/4a03839732a7888aa6a55.jpg"
 
 
 AERO_Button = [
