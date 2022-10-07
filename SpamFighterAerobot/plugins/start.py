@@ -5,10 +5,10 @@ from telethon import events, Button
 from telethon.tl.custom import button
 from SpamFighterAerobot import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, ALIVE_PIC, OWNER_ID, OWNER_NAME
 
-Vrajesh_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg"
+AEROBOTZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg"
 
 
-Vrajesh_Button = [
+AERO_Button = [
         [
         Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/AerodynamicV1_Update"),
         Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/AerodynamicV1_Promotion")
@@ -39,7 +39,7 @@ async def start(e):
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[𝘼𝙚𝙧𝙤𝙙𝙮𝙣𝙖𝙢𝙞𝙘𝙑1](tg://user?id={OWNER_ID})"
         creator = f"[𝙑𝙧𝙖𝙟𝙚𝙨𝙝](tg://user?id={5708737143})"
-        Vrajesh_ON = f"""
+        AERO_ON = f"""
 ʜᴇʏ {mention},
 ᴛʜɪs ɪs SpamFighterAerobot ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
 
@@ -49,4 +49,4 @@ async def start(e):
 
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss sᴜᴘᴘᴏʀᴛ ,ᴄʜᴀɴɴᴇʟ ᴀɴᴅ Network!
     """
-        await e.client.send_file(e.chat_id, Vrajesh_IMG, caption=Vrajesh_ON, buttons=Vrajesh_Button)
+        await e.client.send_file(e.chat_id, AEROBOTZ_IMG, caption=AERO_ON, buttons=AERO_Button)
