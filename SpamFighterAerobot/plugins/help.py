@@ -5,11 +5,11 @@ from time import time
 from datetime import datetime
 from SpamFighterAerobot import CMD_HNDLR as hl
     
-HELP_PIC = "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg"
+HELP_PIC = "https://te.legra.ph/file/4a03839732a7888aa6a55.jpg"
 
-AERO_Help = "🔥 **SpamFighterAerobot** 🔥\n\n"
+AERO_Help = "😈 [**SpamFighterAerobot**](https://t.me/SpamFighterAerobot) 😈\n\n"
  
-AERO_Help += f"__ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ SpamFighterAerobot__\n\n"
+AERO_Help += f"🔰**AVAILABLE COMMAND**🔰\n\n"
 
 AERO_Help += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 
@@ -36,7 +36,8 @@ async def help(event):
                                   caption=AERO_Help,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/AerodynamicV1_Update")
+        Button.url("Channel🔔", "https://t.me/AerodynamicV1_Update"),
+        Button.url("Support💬", "https://t.me/AerodynamicV1_Promotion")
         ] 
         ]
         )
