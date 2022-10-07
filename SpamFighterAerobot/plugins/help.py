@@ -7,7 +7,7 @@ from SpamFighterAerobot import CMD_HNDLR as hl
     
 HELP_PIC = "https://te.legra.ph/file/4a03839732a7888aa6a55.jpg"
 
-AERO_Help = "😈 [**SpamFighterAerobot**](https://t.me/SpamFighterAerobot) 😈\n\n"
+AERO_Help = "😈 **[SpamFighterAerobot~[🇮🇳]](https://t.me/SpamFighterAerobot)** 😈\n\n"
  
 AERO_Help += f"🔰**AVAILABLE COMMAND**🔰\n\n"
 
