@@ -1,7 +1,7 @@
 {
     "name": "SpamFighterAerobot~[🇮🇳]",
     "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
-    "logo": "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg",
+    "logo": "https://te.legra.ph/file/4a03839732a7888aa6a55.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -20,7 +20,7 @@
       },
       "ALIVE_PIC": {
         "description": "your alive pic or video",
-        "value": "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg",
+        "value": "https://te.legra.ph/file/4a03839732a7888aa6a55.jpg",
         "required": false
       },
       "API_HASH": {
