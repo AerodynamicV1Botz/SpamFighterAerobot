@@ -15,23 +15,23 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-DEAD_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg"
+AEROBOTZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg"
   
 
-DEADLY = "✯ AeroXSpam Fighter Here ✯\n\n"
-DEADLY += f"═══════════════════\n"
-DEADLY += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.7`\n"
-DEADLY += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-DEADLY += f"• **ᴅᴇᴀᴅʟʏʙᴏᴛ ᴠᴇʀsɪᴏɴ**  : `{vrajeshversion}`\n"
-DEADLY += f"═══════════════════\n\n"   
+AERO = "✯ AeroXSpam Fighter Here ✯\n\n"
+AERO += f"═══════════════════\n"
+AERO += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.7`\n"
+AERO += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+AERO += f"• **ᴅᴇᴀᴅʟʏʙᴏᴛ ᴠᴇʀsɪᴏɴ**  : `{vrajeshversion}`\n"
+AERO += f"═══════════════════\n\n"   
 
                                   
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 async def alive(event):
   if event.sender_id in SUDO_USERS:
      await BOT0.send_file(event.chat_id,
-                                  DEAD_PIC,
-                                  caption=DEADLY,
+                                  AEROBOTZ_PIC,
+                                  caption=AERO,
                                   buttons=[
         [
         Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/AerodynamicV1_Update"),
@@ -159,7 +159,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 async def tb(event):
     if event.sender_id == OWNER_ID:
         ok = await event.reply("Adding user as a sudo...")
-        DEADLY = "SUDO_USER"
+        AERO = "SUDO_USER"
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
         else:
@@ -177,7 +177,7 @@ async def tb(event):
         else:
             newsudo = f"{target}"
         await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
-        heroku_var[DEADLY] = newsudo   
+        heroku_var[AERO] = newsudo   
    
      
 async def get_user(event):
