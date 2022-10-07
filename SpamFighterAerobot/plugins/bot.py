@@ -15,7 +15,7 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-AEROBOTZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/8fa034b5a6faae2c9da16.jpg"
+AEROBOTZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/4a03839732a7888aa6a55.jpg"
   
 
 AERO = "✯ AeroXSpam Fighter Here ✯\n\n"
