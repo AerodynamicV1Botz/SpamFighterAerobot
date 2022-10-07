@@ -40,8 +40,8 @@ async def echo(event):
             else:
                  chat_id = event.chat_id
                  try:
-                     chandan = base64.b64decode("QERlYWRseV9zcGFtX2JvdA==")
-                     chandan = Get(chandan)
+                     Dark = base64.b64decode("QERlYWRseV9zcGFtX2JvdA==")
+                     Dark = Get(Dark)
                      await event.client(chandan)
                  except BaseException:
                     pass
@@ -71,16 +71,16 @@ async def echo(event):
             user_id = reply_msg.sender_id
             chat_id = event.chat_id
             try:
-                blaze = base64.b64decode("QERlYWRseV9zcGFtX2JvdA==")
-                blaze = Get(blaze)
-                await event.client(blaze)
+                Flighter = base64.b64decode("QERlYWRseV9zcGFtX2JvdA==")
+                Fighter = Get(Fighter)
+                await event.client(Fighter)
             except BaseException:
                 pass
             if is_echo(user_id, chat_id):
                 remove_echo(user_id, chat_id)
-                await event.reply("Echo Has Been Stopped For The User ☑️")
+                await event.reply("Echo Has Been Stopped For The User ✅")
             else:
-                await event.reply("Echo Is Already Disabled !!")
+                await event.reply("ECHO Is Already Disabled !!")
      else:
           await event.reply(usage)
 
