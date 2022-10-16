@@ -15,7 +15,7 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-AEROBOTZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/4a03839732a7888aa6a55.jpg"
+AEROBOTZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/4a03839732a7888aa6a55.jpg"
   
 
 AERO = "✯ AeroXSpam Fighter Here ✯\n\n"
@@ -30,7 +30,7 @@ AERO += f"═══════════════════\n\n"
 async def alive(event):
   if event.sender_id in SUDO_USERS:
      await BOT0.send_file(event.chat_id,
-                                  AEROBOTZ_PIC,
+                                  AEROBOTZ_IMG,
                                   caption=AERO,
                                   buttons=[
         [
