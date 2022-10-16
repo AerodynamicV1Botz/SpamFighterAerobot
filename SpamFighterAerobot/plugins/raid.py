@@ -128,7 +128,7 @@ async def _(e):
             a = await e.client.get_entity(message)
             user_idd = a.id
             user_id = int(user_idd)
-            if int(user_id) in Deadly:
+            if int(user_id) in AERO:
                 text = f" can't raid on @AerodynamicV1_Promotion Owner."
                 await e.reply(text)
             elif int(user_id) == OWNER_ID:
