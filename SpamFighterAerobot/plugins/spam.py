@@ -158,7 +158,6 @@ async def spam(e):
             await e.reply(usage)
 
 
-
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
 @BOT1.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
 @BOT2.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
