@@ -155,7 +155,8 @@ heroku_api = "https://api.heroku.com"
 sudousers = os.environ.get("SUDO_USER", None)
 
 # this Feature Will Works only If u r Added Heroku api
-@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
+@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%ssudoadd(?: |$)(.*)" % hl))
+@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%ssudoadd@SpamFighter_Aerobot(?: |$)(.*)" % hl))
 async def tb(event):
     if event.sender_id == OWNER_ID:
         ok = await event.reply("Adding user as a sudo...")
