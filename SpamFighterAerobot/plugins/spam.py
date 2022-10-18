@@ -33,6 +33,16 @@ from resources.data import GROUP, PORMS
 @BOT7.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
 @BOT8.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
 @BOT9.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT1.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT2.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT3.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT4.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT5.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT6.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT7.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT8.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT9.on(events.NewMessage(incoming=True, pattern=r"\%sspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
@@ -74,6 +84,16 @@ async def spam(e):
 @BOT7.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam(?: |$)(.*)" % hl))
 @BOT8.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam(?: |$)(.*)" % hl))
 @BOT9.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam(?: |$)(.*)" % hl))
+@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT1.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT2.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT3.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT4.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT5.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT6.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT7.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT8.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT9.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SUDO_USERS:
@@ -119,6 +139,16 @@ async def spam(e):
 @BOT7.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam(?: |$)(.*)" % hl))
 @BOT8.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam(?: |$)(.*)" % hl))
 @BOT9.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam(?: |$)(.*)" % hl))
+@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT1.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT2.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT3.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT4.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT5.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT6.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT7.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT8.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT9.on(events.NewMessage(incoming=True, pattern=r"\%sdelayspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."     
     if e.sender_id in SUDO_USERS:
@@ -168,6 +198,16 @@ async def spam(e):
 @BOT7.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
 @BOT8.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
 @BOT9.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT1.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT2.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT3.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT4.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT5.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT6.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT7.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT8.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
+@BOT9.on(events.NewMessage(incoming=True, pattern=r"\%spornspam@SpamFighter_Aerobot(?: |$)(.*)" % hl))
 async def pspam(e):
     if e.sender_id in SUDO_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
