@@ -41,7 +41,7 @@ async def start(e):
         creator = f"[𝙑𝙧𝙖𝙟𝙚𝙨𝙝](tg://user?id={5708737143})"
         AERO_ON = f"""
 ʜᴇʏ {mention},
-ᴛʜɪs ɪs SpamFighterAerobot ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
+ᴛʜɪs ɪs Aero ✘ Spam Fighter~[🇮🇳] ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
 
 ᴛʜɪs ʙᴏᴛ ᴏᴡɴᴇʀ:- {myOwner}
 
