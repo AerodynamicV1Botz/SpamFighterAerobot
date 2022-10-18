@@ -7,7 +7,7 @@ from SpamFighterAerobot import CMD_HNDLR as hl
     
 HELP_PIC = "https://te.legra.ph/file/4a03839732a7888aa6a55.jpg"
 
-AERO_Help = "😈 **[SpamFighterAerobot~[🇮🇳]](https://t.me/SpamFighterAerobot)** 😈\n\n"
+AERO_Help = "**[Aero ✘ Spam Fighter~⟨🇮🇳⟩](https://t.me/SpamFighter_Aerobot)**\n\n"
  
 AERO_Help += f"🔰**AVAILABLE COMMAND**🔰\n\n"
 
@@ -29,6 +29,7 @@ AERO_Help += f"© @AerodynamicV1_Promotion\n"
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
+@BOT0.on(events.NewMessage(incoming=True, pattern=r"\%shelp@SpamFighter_Aerobot(?: |$)(.*)" % hl))
 async def help(event):               
     if event.sender_id in SUDO_USERS:
       await BOT0.send_file(event.chat_id,
